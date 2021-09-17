@@ -1,0 +1,537 @@
+@font-face {
+  font-family: 'icomoon';
+  src: url("/fonts/icomoon.eot?luirr1");
+  src: url("fonts/icomoon.eot?luirr1#iefix") format("embedded-opentype"), url("fonts/icomoon.ttf?luirr1") format("truetype"), url("fonts/icomoon.woff?luirr1") format("woff"), url("fonts/icomoon.svg?luirr1#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-facebook:before {
+  content: "\ea90";
+}
+
+.icon-instagram:before {
+  content: "\ea92";
+}
+
+.icon-twitter:before {
+  content: "\ea96";
+}
+
+.icon-youtube:before {
+  content: "\ea9d";
+}
+
+body {
+  background-image: url(background/image_summer.jpg);
+  background-size: inherit;
+  background-attachment: fixed;
+  background-position: center right;
+  background-repeat: no-repeat;
+  margin: 0;
+}
+
+body .content {
+  position: fixed;
+  width: 680px;
+  height: 1080px;
+  background-color: #FFFFFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  font-family: Arial;
+}
+
+body .content .top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  text-decoration: none;
+}
+
+body .content .top .logo {
+  position: fixed;
+  width: 25px;
+  height: 40px;
+  left: 100px;
+  top: 100px;
+  color: #4066A5;
+}
+
+body .content .top .name {
+  position: fixed;
+  width: 78px;
+  line-height: 16px;
+  left: 140px;
+  top: 103px;
+  color: #131821;
+}
+
+body .content .top .menu {
+  position: fixed;
+  height: 26px;
+  left: 318px;
+  top: 120px;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+body .content .top .menu a {
+  text-decoration: none;
+  color: #6A707B;
+  margin: 15px;
+}
+
+body .content #subscribe h2 {
+  position: fixed;
+  width: 399px;
+  height: 44px;
+  left: 140px;
+  top: 359px;
+  font-family: Georgia;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 44px;
+  color: #131821;
+}
+
+body .content #subscribe p {
+  position: fixed;
+  width: 400px;
+  height: 56px;
+  left: 140px;
+  top: 433px;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  color: #6A707B;
+}
+
+body .content #email {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .content #email #text {
+  position: fixed;
+  width: 663px;
+  height: 70px;
+  left: 100px;
+  top: 539px;
+  text-decoration: none;
+  background: #FFFFFF;
+  border: 1px solid #E3E3E4;
+  border-left: 4px solid #4066A5;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-top: 23px;
+  padding-left: 44px;
+  padding-bottom: 23px;
+}
+
+body .content #email #text:focus {
+  outline: none;
+  -webkit-box-shadow: 0px 30px 40px rgba(19, 24, 33, 0.06);
+          box-shadow: 0px 30px 40px rgba(19, 24, 33, 0.06);
+}
+
+body .content #email #text:hover {
+  border: 1px solid #4066A5;
+  border-left: 4px solid #4066A5;
+  -webkit-box-shadow: 0px 30px 40px rgba(19, 24, 33, 0.06);
+          box-shadow: 0px 30px 40px rgba(19, 24, 33, 0.06);
+}
+
+body .content #email #lbltext {
+  position: fixed;
+  visibility: hidden;
+  width: 300px;
+  height: 30px;
+  top: 625px;
+  left: 150px;
+  color: #CC0000;
+}
+
+body .content #email .send {
+  position: fixed;
+  width: 24px;
+  height: 14px;
+  left: 699px;
+  top: 567px;
+  border: none;
+  padding-left: 0px;
+  background: #FFFFFF;
+}
+
+body .content #email .send.arrow:hover {
+  background: #4066A5;
+}
+
+body .content #email #checkbox {
+  position: fixed;
+  width: 26px;
+  height: 26px;
+  left: 140px;
+  top: 663px;
+  background: #4066A5;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+body .content #email .terms {
+  position: fixed;
+  width: 359px;
+  height: 28px;
+  left: 181px;
+  top: 666px;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  color: #6A707B;
+}
+
+body .content #email .terms a {
+  color: #131821;
+}
+
+body .content #email .terms a:hover {
+  color: #4066A5;
+}
+
+body .content #email .terms a:active {
+  color: #233759;
+}
+
+body .content #message {
+  display: none;
+}
+
+body .content #message svg {
+  position: absolute;
+  width: 44px;
+  height: 70px;
+  left: 140px;
+  top: 269px;
+}
+
+body .content #message h2 {
+  position: fixed;
+  width: 400px;
+  height: 44px;
+  left: 140px;
+  top: 360px;
+  font-family: Georgia;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 44px;
+  color: #131821;
+}
+
+body .content #message p {
+  position: fixed;
+  width: 400px;
+  height: 56px;
+  left: 140px;
+  top: 438px;
+  font-family: Arial;
+  font-size: 16px;
+  line-height: 28px;
+  color: #6A707B;
+}
+
+body .content .line {
+  position: fixed;
+  width: 400px;
+  height: 1px;
+  left: 140px;
+  top: 740px;
+  background: #E3E3E4;
+}
+
+body .content .social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+  color: #E3E3E4;
+  padding-left: 218px;
+  padding-right: 218px;
+}
+
+body .content .social a {
+  text-decoration: none;
+  border-radius: 25px;
+  border: 2px solid #E3E3E4;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 46px;
+  height: 46px;
+  margin-bottom: 52px;
+}
+
+body .content .social a.facebook:hover {
+  background: #4267B2;
+  -webkit-box-shadow: 0px 20px 40px rgba(19, 24, 33, 0.3);
+          box-shadow: 0px 20px 40px rgba(19, 24, 33, 0.3);
+}
+
+body .content .social a.facebook:hover:active {
+  background: #2F4A80;
+}
+
+body .content .social a.icon-facebook:hover {
+  background: #FFFFFF;
+}
+
+body .content .social a.instagram:hover {
+  background: #C13584;
+  -webkit-box-shadow: 0px 20px 40px rgba(19, 24, 33, 0.3);
+          box-shadow: 0px 20px 40px rgba(19, 24, 33, 0.3);
+}
+
+body .content .social a.instagram:hover:active {
+  background: #8F2762;
+}
+
+body .content .social a.icon-instagram:hover {
+  color: #FFFFFF;
+}
+
+body .content .social a.twitter:hover {
+  background: #1DA1F2;
+  -webkit-box-shadow: 0px 20px 40px rgba(19, 24, 33, 0.3);
+          box-shadow: 0px 20px 40px rgba(19, 24, 33, 0.3);
+}
+
+body .content .social a.twitter:hover:active {
+  background: #177FBF;
+}
+
+body .content .social a.youtube:hover {
+  background: #FF0000;
+  -webkit-box-shadow: 0px 20px 40px rgba(19, 24, 33, 0.3);
+          box-shadow: 0px 20px 40px rgba(19, 24, 33, 0.3);
+}
+
+body .content .social a.youtube:hover:active {
+  background: #CC0000;
+}
+
+body .content .social a span {
+  padding-left: 13px;
+  position: fixed;
+  top: 806px;
+  bottom: 258px;
+  opacity: 0.3;
+}
+
+body .content .social a span.icon-facebook:hover {
+  color: #FFFFFF;
+}
+
+body .content .social a span.icon-instagram:hover {
+  color: #FFFFFF;
+}
+
+body .content .social a span.icon-twitter:hover {
+  color: #FFFFFF;
+}
+
+body .content .social a span.icon-youtube:hover {
+  color: #FFFFFF;
+}
+
+/* Mobile version */
+@media only screen and (max-width: 600px) {
+  body {
+    background-position: center;
+  }
+  body .content {
+    width: 335px;
+    height: 371px;
+    left: 20px;
+    top: 254px;
+  }
+  body .content .top {
+    position: fixed;
+    width: 375px;
+    height: 66px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+  }
+  body .content .top .logo {
+    position: fixed;
+    left: 20px;
+    top: 10px;
+  }
+  body .content .top .name {
+    display: none;
+  }
+  body .content .top .menu {
+    position: fixed;
+    height: 24px;
+    left: 135px;
+    top: 21px;
+    font-size: 14px;
+    line-height: 24px;
+  }
+  body .content .top .menu a {
+    margin: 10px;
+  }
+  body .content #subscribe h2 {
+    position: fixed;
+    width: 295px;
+    height: 34px;
+    left: 40px;
+    top: 284px;
+    font-size: 24px;
+    line-height: 34px;
+  }
+  body .content #subscribe p {
+    position: fixed;
+    width: 295px;
+    height: 52px;
+    left: 40px;
+    top: 328px;
+    font-size: 14px;
+    line-height: 26px;
+  }
+  body .content #email #text {
+    position: fixed;
+    width: 295px;
+    height: 60px;
+    left: 40px;
+    top: 400px;
+  }
+  body .content #email #lbltext {
+    position: fixed;
+    width: 250px;
+    height: 26px;
+    left: 73px;
+    top: 464px;
+    font-size: 13px;
+  }
+  body .content #email .send {
+    position: fixed;
+    width: 24px;
+    height: 14px;
+    left: 296px;
+    top: 423px;
+  }
+  body .content #email #checkbox {
+    position: fixed;
+    width: 26px;
+    height: 26px;
+    left: 40px;
+    top: 481px;
+  }
+  body .content #email .terms {
+    position: fixed;
+    width: 254px;
+    height: 28px;
+    left: 81px;
+    top: 485px;
+    font-size: 16px;
+    line-height: 28px;
+  }
+  body .content .message h2 {
+    position: fixed;
+    width: 400px;
+    height: 44px;
+    left: 140px;
+    top: 369px;
+    font-family: Georgia;
+    font-size: 32px;
+    line-height: 44px;
+    color: #131821;
+  }
+  body .content .message p {
+    position: fixed;
+    width: 400px;
+    height: 56px;
+    left: 140px;
+    top: 433px;
+    font-family: Arial;
+    font-size: 16px;
+    line-height: 28px;
+    color: #6A707B;
+  }
+  body .content .line {
+    position: fixed;
+    width: 295px;
+    height: 1px;
+    left: 40px;
+    top: 528px;
+  }
+  body .content .social {
+    position: fixed;
+    padding: 0;
+    margin: 0;
+    top: 549px;
+    left: 75px;
+  }
+  body .content .social a {
+    margin: 5px;
+  }
+  body .content .social a span {
+    position: fixed;
+    top: 564px;
+    padding-top: 5px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
